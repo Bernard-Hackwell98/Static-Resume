@@ -1,0 +1,56 @@
+body {
+    background-color: #f3f0f0; /* Light grey background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.daltoit {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 60%;
+    margin: 50px auto;
+    text-align: left;
+    box-shadow: 5px 5px 15px rgba(128, 0, 128, 0.6); /* Purple shadow */
+    transition: all 0.3s ease-in-out;
+}
+
+.daltoit:hover {
+    transform: translateY(-10px); /* Makes it pop out on hover */
+}
+
+.daltoit a {
+    display: inline-block;
+    margin: 10px 15px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+.daltoit h1, .custom-box h4 {
+    margin: 10px 0;
+}
+
+.yeet{
+    text-align: center;
+    margin: 0 20px
+}
+
+.yeet a{
+    text-align: center;
+    display: inline-block;
+    margin: 10 20px
+}
+
+.yeet {
+    text-align: center;
+}
+
+.yeet a {
+    display: inline-block;
+    margin: 0 20px; /* Adjust margin for equal spacing */
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
